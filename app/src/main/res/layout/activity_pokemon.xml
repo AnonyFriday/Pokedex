@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.PokemonActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:padding="0dp"
+        android:layout_gravity="center"
+        android:id="@+id/pokemon_pic" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pokemon_name"
+        android:textAlignment="center"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:paddingTop="3dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pokemon_number"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:paddingTop="5dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pokemon_type1"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:paddingTop="5dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pokemon_type2"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:paddingTop="5dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/catch_button"
+        android:textAlignment="center"
+        android:onClick="toggleCatch" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pokemon_desc"
+        android:textSize="20dp"
+        android:padding="30dp" />
+</LinearLayout>
