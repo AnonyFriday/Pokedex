@@ -1,6 +1,6 @@
 # Pokedex
 
-This Android App is uploaded for the submission purposes to the CS50 Harvard course (Computer Science).
+This is Android Application developed for education purposes for CS50 Course submission.
 
 This application includes multiple API calls, inmemory database, a number of layouts and views to display, search and operate data.
 
